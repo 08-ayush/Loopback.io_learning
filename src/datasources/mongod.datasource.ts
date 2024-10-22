@@ -1,19 +1,6 @@
 import { inject, lifeCycleObserver, LifeCycleObserver } from '@loopback/core';
 import { juggler } from '@loopback/repository';
 
-// const config = {
-//   name: 'mongodb',
-//   connector: 'mongodb',
-//   url: 'mongodb+srv://<username>:<password>@<cluster>.mongodb.net/<database>?retryWrites=true&w=majority',
-//   host: '',
-//   port: 0,
-//   user: '',
-//   password: '',
-//   database: '',
-//   useNewUrlParser: true,
-//   useUnifiedTopology: true,
-// };
-
 const config = {
   name: 'mongodb',
   connector: 'mongodb',
